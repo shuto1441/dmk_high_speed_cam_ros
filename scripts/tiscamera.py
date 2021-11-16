@@ -1,12 +1,13 @@
-from gi.repository import Tcam, Gst, GLib, GObject
+
 import os
 import subprocess
 from collections import namedtuple
 import gi
-
-
-gi.require_version("Gst", "1.0")
 gi.require_version("Tcam", "0.1")
+gi.require_version("Gst", "1.0")
+from gi.repository import Tcam, Gst, GLib, GObject
+
+
 
 
 DeviceInfo = namedtuple("DeviceInfo", "status name identifier connection_type")
