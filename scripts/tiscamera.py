@@ -4,6 +4,7 @@ import subprocess
 from collections import namedtuple
 import gi
 
+
 gi.require_version("Gst", "1.0")
 gi.require_version("Tcam", "0.1")
 
