@@ -15,7 +15,8 @@ parser.add_argument('--width', type=int, default=360)
 parser.add_argument('--height', type=int, default=280)
 parser.add_argument('--fps', type=int, default=950)
 
-args = parser.parse_args()
+#args = parser.parse_args()
+args, unknown = parser.parse_known_args()
 
 
 # Open the camera. Parameters are serial number, width, height, frame rate, color and liveview.
