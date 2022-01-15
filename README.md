@@ -39,9 +39,6 @@ catkin build
 roslaunch dmk_high_speed_cam_ros high_speed_cam.launch
 ```
 
-# Author
-* [shuto1441](https://github.com/shuto1441)
-
 # Reference
 You can find an online version of the included user documentation here:
 
